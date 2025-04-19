@@ -7,49 +7,44 @@
 //Teste larissa
 
 int main() {
-    char  estado1 [30] , estado2 [30];
-    char codigo_carta1 , codigo_carta2 ;
-    char nome_cidade1 [30] , nome_cidade2 [30];
-    int populacao1 , populacao2;
-    float area1 , area2;
-    float pib1 , pib2;
-    int ponto_turistico1 , ponto_turistico2;
+    char estado ;
+    char codigo_carta [10] ;
+    char nome_cidade ;
+    int  populacao ;
+    float area ;
+    float pib ; 
+    int ponto_turistico;
 
-    printf("Seja Bem vindo ao Super Trunfo! \n");
-    printf("Vamos cadastrar a sua primeira carta! para isso preciso que forneça alguns dados.\n");
     printf("Qual é o Estado da sua Carta? \n");
-    scanf("%s" , &estado1);
+    scanf("%s" , &estado);
+    
+    printf("Qual é o Codigo da Carta? \n");
+    scanf("%s" , &codigo_carta);
 
-    printf("Ok.Agora para o código da sua carta preciso da letra inicial e de um numeral de até no máximo 2 digitos! \n");
-    scanf("%s" , &codigo_carta1);
+    printf("Qual é o Nome da Cidade? \n");
+    scanf("%s" , &nome_cidade);
+    
+    printf("Qual é a Populacao? \n");
+    scanf("%d" , &populacao);
 
-    printf("Perfeito! Qual a cidade da sua carta? \n");
-    scanf("%s" , &nome_cidade1);
+    printf("Qual é a área? \n");
+    scanf("%f" , &area);
 
-    printf("Só mais algumas informações e seu cadatro estará completo! \n");
+    printf("Qual é o PIB? \n");
+    scanf("%f" , &pib);
 
-    printf("Qual a população da sua carta? \n");
-    scanf("%d" , &populacao1);
+    printf("Quantos Pontos Turisticos ? \n");
+    scanf("%d" , &ponto_turistico);
 
-    printf("Qual a área por km² da sua carta? \n");
-    scanf("%f" , &area1);
 
-    printf("Qual o Pib da sua carta? \n");
-    scanf("%f" , &pib1);
+    printf("Estado: %s\n") , &estado;
 
-    printf("Quantos pontos turísticos? \n");
-    scanf("%d" , &ponto_turistico1);
 
-    printf("Aqui estão as informações da sua carta! \n");
-    printf("O estado: %s \n" , estado1 );
-    printf("O Código: %s \n" , codigo_carta1 );
-    printf("O nome da cidade: %s \n" , nome_cidade1 );
-    printf("A população: %d \n", populacao1 );
-    printf("A área: %f \n" , area1 );
-    printf("O PIB: %f \n" , pib1 );
-    printf("Quantidade de Pontos Turísticos %d \n" , ponto_turistico1 );
 
-    printf("Parabéns! Sua primeira carta foi cadastrada. Vamos continuar e cadastar a segunda! \n");
+
+
+
+
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
