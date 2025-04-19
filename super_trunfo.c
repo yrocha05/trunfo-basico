@@ -37,7 +37,7 @@ int main() {
     scanf("%d" , &ponto_turistico);
 
 
-    printf("Estado: %s\n") , &estado;
+    printf("Estado: %s \n"), estado;
 
 
 
