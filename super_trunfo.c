@@ -7,22 +7,20 @@
 //Teste larissa
 
 int main() {
-    char estado ;
-    char codigo_carta [10] ;
-    char nome_cidade ;
+    char estado [10] , codigo_carta [3] , nome_cidade [20] ;
     int  populacao ;
     float area ;
     float pib ; 
     int ponto_turistico;
 
     printf("Qual é o Estado da sua Carta? \n");
-    scanf("%s" , &estado);
+    scanf("%s" , estado);
     
     printf("Qual é o Codigo da Carta? \n");
-    scanf("%s" , &codigo_carta);
+    scanf("%s" , codigo_carta);
 
     printf("Qual é o Nome da Cidade? \n");
-    scanf("%s" , &nome_cidade);
+    scanf("%s" , nome_cidade);
     
     printf("Qual é a Populacao? \n");
     scanf("%d" , &populacao);
@@ -37,7 +35,7 @@ int main() {
     scanf("%d" , &ponto_turistico);
 
 
-    printf("Estado: %s \n"), estado;
+    printf("Estado: %s \n", estado);
 
 
 
